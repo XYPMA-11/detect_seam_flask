@@ -6,7 +6,7 @@ import torch
 
 app = Flask(__name__)
 camera = cv2.VideoCapture(0)
-yolo = YOLO('C:/Users/User/Downloads/best1.pt')
+yolo = YOLO('/best1.pt')
 
 
 def generate_frames():
